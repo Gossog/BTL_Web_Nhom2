@@ -6,14 +6,6 @@
     <title>Đăng ký - HomeFix</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/auth.css" />
-    <style>
-      .error {
-        color: red;
-        font-size: 0.9em;
-        margin-top: 4px;
-        display: block;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -43,17 +35,14 @@
           <div class="form-group">
             <label for="regName">Họ và tên:</label>
             <input type="text" id="regName" name="name" required />
-            <span class="error" id="errorName"></span>
           </div>
           <div class="form-group">
             <label for="regEmail">Email:</label>
             <input type="email" id="regEmail" name="email" required />
-            <span class="error" id="errorEmail"></span>
           </div>
           <div class="form-group">
             <label for="regPassword">Mật khẩu:</label>
             <input type="password" id="regPassword" name="password" required />
-            <span class="error" id="errorPassword"></span>
           </div>
           <div class="form-group">
             <label for="regConfirmPassword">Nhập lại mật khẩu:</label>
@@ -63,12 +52,10 @@
               name="confirmPassword"
               required
             />
-            <span class="error" id="errorConfirmPassword"></span>
           </div>
           <div class="form-group">
             <label for="regPhone">Số điện thoại:</label>
             <input type="tel" id="regPhone" name="phone" required />
-            <span class="error" id="errorPhone"></span>
           </div>
           <div class="form-group">
             <label for="regAddress">Địa chỉ:</label>
